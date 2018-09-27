@@ -59,12 +59,29 @@ header{
 }
 .divisor{
   border-right: 1px solid #84D0C4;
+  padding-left: 3rem;
+}
+.img-articulo{
+  width: 100%;
+  margin-top: 13%;
+  vertical-align: text-top;
 }
 .form-control{
   width: 80% !important;
 }
 .img-person{
   width: 5rem;
+}
+.search-container{
+  padding-top: 1rem;
+}
+.listado{
+  padding-top: 2rem;
+  padding-right: 0.5rem;
+}
+.list-group-item{
+  background: #D9CFC5;
+  opacity: 0.6;
 }
 
 @media screen and (max-width:600px){
@@ -85,6 +102,12 @@ header{
   }
   .mynav{
     height: 19rem;
+  }
+  .img-articulo{
+    width: 100%;
+    margin-bottom: 13%;
+    vertical-align: text-bottom;
+    padding-right: 2rem;
   }
   .form-control{
     width: 75% !important;
