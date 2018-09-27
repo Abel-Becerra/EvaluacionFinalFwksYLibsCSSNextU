@@ -1,0 +1,134 @@
+body{
+  background: #84D0C4;
+}
+header{
+  height: 10rem;
+  background: #D6F1C4;
+  border:0;
+  border-radius: 0;
+}
+.logo-img{
+  margin-left: 3rem;
+  margin-top: 0.3rem;
+  width: 6rem;
+  height: 9rem;
+}
+.container{
+  padding-left: 6%;
+  padding-right: 6%;
+}
+.img-rounded{
+  border-radius: 6px;
+  cursor:pointer;
+}
+.img-social{
+  width: 6rem;
+  height: 5.5rem;
+}
+.redes-sociales{
+  padding: 3.5rem 3rem 0 0;
+}
+.mynav{
+  height: 4rem;
+}
+.mynav div{
+  padding-top: 1rem;
+  text-align: center;
+}
+.minav{
+  background: #FECB20;
+  border:0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color:#643754;
+}
+.minavitem:hover{
+  background: #E95D2A;
+  height: 4rem;
+  color: white;
+}
+.micontenedor{
+  margin-top: 1rem;
+  background: #E3D096;
+  color:#A23419;
+  border-radius: 4px;
+  min-height: 55rem;
+  box-shadow: 1px 1px;
+}
+.divisor{
+  border-right: 1px solid #84D0C4;
+  padding-left: 3rem;
+}
+.img-articulo{
+  width: 100%;
+  margin-top: 13%;
+  vertical-align: text-top;
+}
+.form-control{
+  width: 80% !important;
+}
+.img-person{
+  width: 5rem;
+}
+.search-container{
+  padding-top: 1rem;
+}
+.listado{
+  padding-top: 2rem;
+  padding-right: 0.5rem;
+}
+.list-group-item{
+  background: #D9CFC5;
+  opacity: 0.6;
+}
+
+@media screen and (max-width:600px){
+  .logo-container{
+    text-align: center;
+  }
+  .img-social{
+    width: 4rem;
+    height: 3.5rem;
+  }
+  .redes-sociales{
+    padding: 0;
+    margin-top: 3rem;
+    text-align: center;
+  }
+  header{
+    height: 18rem;
+  }
+  .mynav{
+    height: 19rem;
+  }
+  .img-articulo{
+    width: 100%;
+    margin-bottom: 13%;
+    vertical-align: text-bottom;
+    padding-right: 2rem;
+  }
+  .form-control{
+    width: 75% !important;
+  }
+  .tagdivisor{
+    display: none;
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width:991px) and (min-width:601px){
+  .img-social{
+    width: 4rem;
+    height: 3.5rem;
+  }
+  .redes-sociales{
+    margin-top: -3.5rem;
+    text-align: right;
+    padding: 0 3rem 0 0;
+  }
+  .mynav{
+    height: 19rem;
+  }
+}
