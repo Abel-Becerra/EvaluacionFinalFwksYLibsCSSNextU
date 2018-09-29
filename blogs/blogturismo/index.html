@@ -1,136 +1,228 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,user-scalable=no">
-        <title>Frameworks y Librerías CSS</title>
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"/>
-        <link rel="stylesheet" href="css/estilos.css">
-    </head>
-    <body>
-		<div class="container theme-showcase">
-        <header>
-          <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 logo-container">
-              <img class="logo-img" src="images/jukeboxretro.png"/>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <!--Importar la fuente de los íconos de Google-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Importar la hojas de estilos de materialize css-->
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/estilos.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <title>Frameworks y Librerías CSS - Evaluación Final - Blog de Turismo</title>
+  </head>
+  <body class="deep-purple lighten-4">
+    <header class="light-green darken-4">
+      <div class="row">
+        <div class="col l4 m4 s4">
+          <img class="circle logo responsive-img" src="images/logo.jpg">
+        </div>
+        <div class="col l8 m8 s8">
+          <nav>
+            <div class="nav-wrapper">
+              <ul class="right">
+                <li class="itemnav"><a href="#">Inicio</a></li>
+                <li class="itemnav"><a href="#">Visitas</a></li>
+                <li class="itemnav"><a href="#">Mejores Viajes</a></li>
+                <li class="itemnav"><a href="#">Recomendaciones</a></li>
+              </ul>
             </div>
-            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 text-right redes-sociales">
-              <img class="img-rounded img-social" title="#jukeboxretrofb" src="images/facebook.png">
-              <img class="img-rounded img-social" src="images/instagram.png">
-              <img class="img-rounded img-social" src="images/twitter.png">
-              <img class="img-rounded img-social" src="images/youtube.png">
-            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="row col slogan">
+      ¡¡¡ Vida = Aventura = Decisión !!!
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col l2 m2 redessociales hide-on-small-only">
+          <div class="row col">
+            <img class="redessociales-img responsive-img" src="images/facebook.png">
           </div>
-        </header>
-		    <nav class="minav">
-          <div class="mynav">
-            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 minavitem"><span class="minavitem">Inicio</span></div>
-            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 minavitem"><span class="minavitem">Generos</span></div>
-            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 minavitem"><span class="minavitem">Grupos</span></div>
-            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 minavitem"><span class="minavitem">Artistas</span></div>
-            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 minavitem"><span class="minavitem">Top 10</span></div>
-            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 minavitem"><span class="minavitem">Letras</span></div>
+          <div class="row col">
+            <img class="redessociales-img responsive-img" src="images/whatsapp.png">
           </div>
-        </nav>
-        <div class="micontenedor">
-          <div class="row">
-            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 divisor">
-              <div class="row">
-                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                  <h2>
-                    Metallica + Iron Maiden Tribute · Cafe iguana · 19 Enero
-                  </h2>
-                  <p>
-                    El Cafe iguana honra a dos de las más enigmaticas bandas de rock que han marcado los tiempos Metallica y Iron Maiden, acontinuación una breve sinopsis de cada una de ellas.
-                  </p>
-                  <dl>
-                    <dt>Metallica</dt>
-                    <dd>
-                      Es una banda de thrash metal y heavy metal estadounidense que se origina en Los Ángeles, pero con base en San Francisco desde febrero de 1983. Fue fundada en 1981 en Los Ángeles por Lars Ulrich y James Hetfield, a los que se les unirían Dave Mustaine y Ron McGovney.
-                    </dd>
-                  </dl>
-                  <dl>
-                    <dt>Iron Maiden</dt>
-                    <dd>
-                      Iron Maiden es una banda británica de heavy metal, fundada en 1975 por el bajista Steve Harris. Es considerada una de las bandas de Heavy Metal más importantes de todos los tiempos.
-                    </dd>
-                  </dl>
+          <div class="row col">
+            <img class="redessociales-img responsive-img" src="images/youtube.png">
+          </div>
+          <div class="row col">
+            <img class="redessociales-img responsive-img" src="images/twitter.png">
+          </div>
+          <div class="row col">
+            <img class="redessociales-img responsive-img" src="images/instagram.png">
+          </div>
+        </div>
+        <div class="col l3 m3 s12 offset-l1 offset-m1 on-small">
+          <div class="row col">
+            <img class="responsive-img z-depth-2" src="images/elsabinalcerralvo/albercavolicerca.jpg">
+          </div>
+          <div class="row col">
+            <img class="responsive-img z-depth-2" src="images/elsabinalcerralvo/familiapalmera.jpg">
+          </div>
+          <div class="row col">
+            <img class="responsive-img z-depth-2" src="images/elsabinalcerralvo/familiapuentealberca.jpg">
+          </div>
+          <div class="row col">
+            <img class="responsive-img z-depth-2" src="images/elsabinalcerralvo/familiayamigos.jpg">
+          </div>
+        </div>
+        <div class="col l3 m3 s12 on-small">
+          <div class="row col">
+            <img class="responsive-img z-depth-2" src="images/elsabinalcerralvo/puentesanfranciscoconamigosyfamilia.jpg">
+          </div>
+          <div class="row col">
+            <img class="responsive-img z-depth-2" src="images/elsabinalcerralvo/yovolli.jpg">
+          </div>
+          <div class="row col">
+            <img class="responsive-img z-depth-2" src="images/matacanes/bajandocuevaparedcascada.jpg">
+          </div>
+          <div class="row col">
+            <img class="responsive-img z-depth-2" src="images/matacanes/cuevatomoagua.jpg">
+          </div>
+          <div class="row col">
+            <img class="responsive-img z-depth-2" src="images/matacanes/principiocueva.jpg">
+          </div>
+        </div>
+        <div class="col l3 m3 s12 on-small">
+          <div class="row col">
+            <img class="responsive-img z-depth-2" src="images/matacanes/desliz.jpg">
+          </div>
+          <div class="row col">
+            <img class="responsive-img z-depth-2" src="images/matacanes/rapelcascadapulgar.jpg">
+          </div>
+          <div class="row col">
+            <img class="responsive-img z-depth-2" src="images/matacanes/unpequenosaltounagranaventura.JPG">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col l8 m8 s12">
+          <div class="row col">
+            <div class="card para-movil">
+              <div class="card-content">
+                <div class="imagenizquierda">
+                  <img src="images/elsabinalcerralvo/puentesanfranciscoconamigosyfamilia.JPG">
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                  <img src="images/metallica-ironmaiden.jpg" class="img-articulo">
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                  <img src="images/person.svg" class="img-person">
-                </div>
-                <div class="">
-                  <form role="form">
-                    <div class="form-group">
-                      <textarea class="form-control" rows="3"></textarea>
-                    </div>
-                  </form>
-                </div>
-              </div>
-
-              <div class="row">
-              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                <img src="images/thedoors.jpg" class="img-articulo">
-              </div>
-                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                  <h2>
-                    The Doors Tribute · Cafe iguana · 20 Enero
-                  </h2>
-                  <p>
-                    El Cafe iguana honra a una banda que marco una decada, The Doors acontinuación una breve sinopsis.
-                  </p>
-                  <dl>
-                    <dt>The Doors</dt>
-                    <dd>
-                      The Doors fue una banda de rock estadounidense, formada en Los Ángeles, en julio del año 1965 y disuelta en el año 1973. Junto a Jefferson Airplane, Grateful Dead y Pink Floyd, se convirtió en uno de los exponentes de la psicodelia de los años 60.
-                    </dd>
-                  </dl>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                  <img src="images/person.svg" class="img-person">
-                </div>
-                <div class="">
-                  <form role="form">
-                    <div class="form-group">
-                      <textarea class="form-control" rows="3"></textarea>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 tagdivisor .d-xs-none .d-sm-block">
-              <div class="row search-container">
-                <div class="col-lg-12">
-                  <form class="form-inline md-form sm-form xs-form">
-                    <i class="fa fa-search" aria-hidden="true"></i>
-                    <input type="Search" aria-label="Search" class="form-control form-control-sm form-control-xs" placeholder="Buscar"/>
-                  </form>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                  <div class="list-group listado">
-                    <a class="list-group-item">Metallica + Iron Maiden Tribute</a>
-                    <a class="list-group-item">The Doors Tribute</a>
-                    <a class="list-group-item">Cafe Iguana</a>
-                    <a class="list-group-item">Xstage Bar</a>
-                    <a class="list-group-item">Parque Fundidora</a>
-                    <a class="list-group-item">Tributos</a>
+                <p>
+                  <h3>El Sabinal</h3>
+                  <div class="chip">
+                    Julio 2018
+                    <i class="material-icons">date_range</i>
                   </div>
+                  <div class="chip">
+                    Cerralvo, Nuevo León, México
+                    <i class="material-icons">location_on</i>
+                  </div>
+                  <br/>
+                  "El Sabinal" es un Parque nacional de México ubicado en el estado de Nuevo León, a las afueras de la población de Cerralvo. El parque recibe este nombre por la abundancia de sabinos, una especie de árbol. El ecosistema del parque es de bosque de galería.
+                </p>
+                <br/>
+                <p>
+                  Con tan solo 7.237 ha de extensión, es el parque nacional más pequeño de México (el de mayor extensión es el Parque nacional Arrecife Alacranes, en el Golfo de México, estado de Yucatán, de 333.768,50 ha).
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row col">
+            <div class="card blue lighten-3 para-movil">
+              <div class="card-content">
+                <form>
+                  <h4>Deja tu comentario</h4>
+                  <div class = "input-field col s6">
+                    <i class = "material-icons prefix circle">person</i>
+                    <input placeholder="Nombre" type = "text" />
+                  </div>
+                  <div class = "input-field col s6">
+                    <i class = "material-icons prefix circle">email</i>
+                    <input placeholder="Email" type = "text" />
+                  </div>
+                  <div class = "input-field col s12">
+                    <i class = "material-icons prefix circle">comment</i>
+                    <input placeholder="Comentario" type = "text" />
+                  </div>
+                  <div class="derecha">
+                    <button class="btn waves-effect waves-light" type="submit">Enviar
+                      <i class="material-icons right">send</i>
+                    </button>
                 </div>
+               </form>
+              </div>
+            </div>
+          </div>
+          <div class="row col">
+            <div class="card para-movil">
+              <div class="card-content">
+                <div class="imagenderecha">
+                  <img src="images/matacanes/principiocueva.jpg">
+                </div>
+                <p>
+                  <h3>Matacanes</h3>
+                  <div class="chip">
+                    Agosto 2018
+                    <i class="material-icons">date_range</i>
+                  </div>
+                  <div class="chip">
+                    Santiago, Nuevo León, México
+                    <i class="material-icons">location_on</i>
+                  </div>
+                  <br/>
+                  Matacanes se encuentra en la Sierra Madre Oriental en el municipio de Santiago en Nuevo León, a 2 horas de la ciudad de Monterrey.
+                </p>
+                <br/>
+                <p>
+                  Matacanes es una sección encañonada del Río Lagunillas, un recorrido de 12 km no más de 7 kilómetros sobre el río con imponentes paredes y suelo pedregoso lleno de obstáculos como peñones, múltiples cascadas, desniveles abruptos, y dos pasadizos (túnel) a los que debe su reciente nombre (Matacanes) por su constitución de material rocoso y formaciones caprichosas hechas por el correr del agua y sus minerales a lo largo del tiempo, su trayectoria inicia desde la el cañón de Lagunillas y termina en el paraje de Las Adjuntas hasta donde el río cruza con el camino de Puerto Genovebo a Potrero Redondo, da cabida a esta majestuosa ruta conocida como Matacanes.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row col">
+            <div class="card blue lighten-3 para-movil">
+              <div class="card-content">
+                <form>
+                  <h4>Deja tu comentario</h4>
+                  <div class = "input-field col s6">
+                    <i class = "material-icons prefix circle">person</i>
+                    <input placeholder="Nombre" type = "text" />
+                  </div>
+                  <div class = "input-field col s6">
+                    <i class = "material-icons prefix circle">email</i>
+                    <input placeholder="Email" type = "text" />
+                  </div>
+                  <div class = "input-field col s12">
+                    <i class = "material-icons prefix circle">comment</i>
+                    <input placeholder="Comentario" type = "text" />
+                  </div>
+                  <div class="derecha">
+                    <button class="btn waves-effect waves-light" type="submit">Enviar
+                      <i class="material-icons right">send</i>
+                    </button>
+                </div>
+               </form>
               </div>
             </div>
           </div>
         </div>
-		</div>
-    </body>
+          <div class="col l4 m4 s12">
+            <div class="row col">
+              <div class="card para-movil center-align">
+                <div class="card-content">
+                  <img class="circle responsive-img z-depth-2" src="images/autor.png">
+                  <h4>Perfil del Autor</h4>
+                  <p>
+                    Manuel Abel de la Cruz Becerra, es un aventurero, explorador, con un gran gusto por aprender, con mucha imaginación, apasionado por los deportes extremos y en general por todos los deportes. Amante de los seres vivos por lo que tiene por hermanos a toda persona que conoce, y no solo a ellos sino también considera como hermanos a los animales, por lo que las mascotas son un miembro de su familia, tiene un sentido de responsabilidad ambiental por lo que procura proteger su medio ambiente hasta donde le es posible.
+                  </p>
+                  <br/>
+                  <p>
+                    Originario de Tabasco, México, por el estilo de vida y ascendencia tuvo que viajar mucho por lo que la cultura en la cual se formo fue tan diversa como las personas que ocupan su vida. Como miembro de la generación X ama la tecnología y por ende es un profesional de la IT a lo cual se dedica y brinda la mayoría de sus horas.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+      <div>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
 </html>
