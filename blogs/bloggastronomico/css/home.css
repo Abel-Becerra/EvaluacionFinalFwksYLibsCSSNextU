@@ -1,0 +1,122 @@
+html {
+  background: url('../images/fondo.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body{
+      background: transparent;
+}
+.diseno{
+  color: #097054;
+  font-weight: bolder;
+  border-right: 2px solid;
+  margin-top: 10px;
+}
+.separador{
+  border-bottom: 2px solid #097054;
+  margin-top: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.fondocolor{
+  background: rgba(248, 247, 216, 0.4);
+  margin-left: 50px;
+  margin-right: 50px;
+}
+h3{
+  font-weight: bolder;
+}
+.button {
+  background-color: #009ECE;
+  color: #FF9900;
+  font-weight: 600;
+}
+.button:hover {
+  background-color: #6599FF;
+}
+a{
+  /*color: #9CCF31 !important;*/
+  color: #FF9900 !important;
+  font-weight: 600;
+}
+.callout.secondary {
+  background-color: #AFEAAA;
+  color: #FF9900;
+}
+input:checked~.switch-paddle {
+  background: #009ECE;
+  color: #FF9900;
+}
+.button.hollow.alert {
+  border: 1px solid #009ECE;
+}
+.button.hollow.alert {
+  border: 1px solid #6599FF;
+}
+.menu.vertical>li {
+  background: transparent;
+  border: 2px solid #009ECE;
+  margin: 2px;
+  border-radius: 2px;
+}
+.menu.vertical>li:hover {
+    background: #6599FF;
+}
+.historial ul li{
+  list-style: none;
+}
+h4{
+  color: #009ECE;
+  margin-top: 2rem;
+}
+.historiacomentario{
+  border: 2px solid #097054;
+  border-radius: 20px;
+  line-height: 3rem;
+  padding-left: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width:600px){
+  header{
+    margin-right: -35px;
+  }
+  .logo{
+    padding: 0.3rem 0 0 0;
+    width: 12rem;
+    height: 9.5rem !important;
+  }
+  .slogan{
+    text-align: center;
+  }
+  .on-small{
+    margin-left: -35px !important;
+  }
+  .itemnav {
+    line-height: 1.6rem;
+    margin-top: 0.5rem;
+  }
+  .para-movil{
+    margin-left: -30px !important;
+    margin-right: 30px !important;
+  }
+  .fondocolor{
+    background: transparent;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width:991px) and (min-width:601px){
+  .hidden-for-small-only{
+    display: none;
+    visibility: hidden;
+  }
+  .show-for-small-only{
+    display: block !important;
+    visibility: visible;
+  }
+}
